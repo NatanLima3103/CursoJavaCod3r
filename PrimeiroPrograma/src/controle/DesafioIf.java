@@ -13,6 +13,7 @@ public class DesafioIf {
         System.out.println("Informe a nota: ");
         double nota = entrada.nextDouble();
 
+        // Não usar ";" em estruturas de controle (tem uma exceção).
         if (nota >= 9.0) {
             System.out.println("Quadro de honra!");
             System.out.println("Você é fera!!!");
