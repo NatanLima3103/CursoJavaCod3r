@@ -7,6 +7,17 @@ public class TiposPrimitivosExercicio {
 
     public static void main (String[] args) {
 
+        String nome = "Lajota";
+        double preco = 15.0;
+        int qtdEstoque = 25;
+        boolean estaEmPromocao = true;
 
+        double valorEstoque = (preco * qtdEstoque);
+
+        System.out.println("O valor total disponível em estoque é: " + valorEstoque);
+
+        if (estaEmPromocao) {
+            System.out.println("O desconto é de 10%");
+        }
     }
 }
