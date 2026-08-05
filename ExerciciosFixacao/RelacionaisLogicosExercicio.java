@@ -7,6 +7,15 @@ public class RelacionaisLogicosExercicio {
 
     public static void main (String[] args) {
 
+        boolean chegouCedo = true;
+        boolean fezTarefas = false;
 
+        boolean ganhouPremio = chegouCedo && fezTarefas;
+        boolean mereceAtencao = !chegouCedo || !fezTarefas;
+
+        System.out.println("Chegou cedo? " + chegouCedo);
+        System.out.println("Fez a tarefa? " + fezTarefas);
+        System.out.println("Ganhou Prêmio? " + ganhouPremio);
+        System.out.println("Merece atenção? " + mereceAtencao);
     }
 }
