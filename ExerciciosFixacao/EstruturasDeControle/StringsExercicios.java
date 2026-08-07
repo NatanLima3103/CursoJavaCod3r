@@ -1,3 +1,5 @@
+package EstruturasDeControle;
+
 public class StringsExercicios {
 
     //Peça o nome completo do usuário. Usando métodos de String (sem if),

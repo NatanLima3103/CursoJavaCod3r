@@ -1,3 +1,5 @@
+package EstruturasDeControle;
+
 public class ComparacaoStringExercicio {
 
     //Peça duas palavras ao usuário. Compare se são iguais ignorando

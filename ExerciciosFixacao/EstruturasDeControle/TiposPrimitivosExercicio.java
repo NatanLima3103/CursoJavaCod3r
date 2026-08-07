@@ -1,3 +1,5 @@
+package EstruturasDeControle;
+
 public class TiposPrimitivosExercicio {
 
     // Crie variáveis para representar um produto de loja: nome (String),

@@ -1,3 +1,5 @@
+package EstruturasDeControle;
+
 public class ConversaoExercicio {
 
     //Peça ao usuário (via Scanner) para digitar a idade dele como texto.

@@ -1,3 +1,5 @@
+package EstruturasDeControle;
+
 public class RelacionaisLogicosExercicio {
 
     //Crie duas variáveis booleanas: chegouCedo e fezTarefas. Usando
