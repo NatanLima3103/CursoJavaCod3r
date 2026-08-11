@@ -1,5 +1,13 @@
 package classe;
 
+/*
+ Exercício 3:
+  Pegue a classe ContaBancaria do exercício 2 e adicione um método
+    chamado depositar, que recebe um valor (parâmetro) e soma
+   esse valor ao saldo do objeto. No teste, chame esse método algumas
+    vezes e imprima o saldo depois de cada chamada.
+*/
+
 import java.util.Scanner;
 
 public class ContaBancariaTeste {
@@ -27,12 +35,12 @@ public class ContaBancariaTeste {
         switch(resposta) {
             case "1":
                 System.out.println("Quanto gostaria de adicionar? ");
-                double valorParaAdicionar = entrada.nextDouble();
-                double somaValores = (pessoa1.saldo = pessoa1.saldo + valorParaAdicionar);
-                System.out.println("O valor em conta agora é: " + somaValores);
+                double valor = entrada.nextDouble();
+                pessoa1.depositar(valor);
+                System.out.println("O valor em conta agora é: " + pessoa1.saldo);
                 break;
             case "2":
-                System.out.println("Perfeito, compreendido! Seu saldo continuará sendo: " + pessoa1.saldo);
+                System.out.println("Você optou por não depositar...");
                 break;
         }
     }
