@@ -6,10 +6,11 @@ public class AlunoTeste {
 
         Aluno al1 = new Aluno();
         al1.nome = "Natan";
-        al1.nota1 = 8.5;
-        al1.nota2 = 8.0;
-        al1.nota3 = 9.0;
+        al1.nota1 = 4.5;
+        al1.nota2 = 3.0;
+        al1.nota3 = 2.0;
 
-        System.out.println("A média final ficou em: " + al1.CalcularMedia());
+        System.out.println("A média final ficou em: " + al1.calcularMedia());
+        System.out.println("Segue seu status: " + al1.status());
     }
 }
