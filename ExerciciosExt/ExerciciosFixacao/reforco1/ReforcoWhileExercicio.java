@@ -14,11 +14,13 @@ public class ReforcoWhileExercicio {
 
         while (num >= 0){
             calc = calc + num;
-            System.out.println("O valor total é: " + calc);
 
             System.out.println("Informe outro número: ");
             num = entrada.nextInt();
 
         }
+
+        System.out.println("O valor total é: " + calc);
+
     }
 }
