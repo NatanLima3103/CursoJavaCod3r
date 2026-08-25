@@ -1,6 +1,6 @@
 package ExerciciosFixacao.reforco1;
 
-public class ArrayCOntadorExercicio {
+public class ArrayContadorExercicio {
 
     public static void main(String[] args){
 
