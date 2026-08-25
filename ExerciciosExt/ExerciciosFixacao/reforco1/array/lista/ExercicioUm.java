@@ -1,4 +1,4 @@
-package ExerciciosFixacao.reforco1.array;
+package ExerciciosFixacao.reforco1.array.lista;
 
 public class ExercicioUm {
 
