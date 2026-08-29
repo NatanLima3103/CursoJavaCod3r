@@ -16,7 +16,19 @@ public class ExercicioSeis {
 
                 System.out.println("Informe um valor de coluna:");
                 int valorInf = entrada.nextInt();
+                matriz[linha][coluna] = valorInf;
             }
+        }
+
+        for (int coluna = 0; coluna < matriz[0].length; coluna++) {
+
+            int somaColuna = 0;
+            for(int linha = 0; linha < matriz.length; linha++){
+
+                somaColuna = somaColuna + matriz[linha][coluna];
+            }
+
+            System.out.println("Soma da coluna " + coluna + ": " + somaColuna);
         }
     }
 }
