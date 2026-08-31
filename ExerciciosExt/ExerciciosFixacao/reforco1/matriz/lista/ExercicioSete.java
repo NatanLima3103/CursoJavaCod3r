@@ -1,4 +1,4 @@
-package reforco1.matriz.lista;
+package ExerciciosFixacao.reforco1.matriz.lista;
 
 import java.util.Scanner;
 
@@ -9,21 +9,24 @@ public class ExercicioSete {
         int [][] matriz = new int[3][3];
 
         for(int linha = 0; linha < matriz.length; linha++){
-            for(int coluna = 0; linha < matriz[linha].length; coluna++){
-
+            for(int coluna = 0; coluna < matriz[linha].length; coluna++){
                 System.out.println("Informe um valor: ");
                 int valorInf = entrada.nextInt();
                 matriz[linha][coluna] = valorInf;
             }
         }
 
-        for(int linha = 0; linha < matriz[0].length; linha++){
-            int valorPar = 0;
+        for(int linha = 0; linha < matriz.length; linha++){
 
-            if(valorInf)
-            for(int coluna = 0; coluna < matriz.length; coluna++){
+            int contadorPar = 0;
 
+            for(int coluna = 0; coluna < matriz[linha].length; coluna++) {
+                if(matriz[linha][coluna] % 2 == 0){
+                    contadorPar++;
+                }
             }
+
+            System.out.println("Linha " + linha + " tem " + contadorPar + " números pares.");
         }
     }
 }
