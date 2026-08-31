@@ -1,4 +1,4 @@
-package ExerciciosFixacao.reforco1.matriz.lista;
+package reforco1.matriz.lista;
 
 import java.util.Scanner;
 
