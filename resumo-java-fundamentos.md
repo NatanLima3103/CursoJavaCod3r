@@ -43,7 +43,7 @@ System.out.println(i.toString().length());
 **Pense assim:** "cada `.método()` pega o resultado do anterior e continua trabalhando em cima dele" — como uma linha de produção.
 
 ```java
-String y = "Bom dia X".replace("X", "Gui").toUpperCase().concat("!!!");
+string y = "Bom dia X".replace("X", "Gui").toUpperCase().concat("!!!");
 ```
 
 ### Comparando Strings: `==` vs `.equals()`
@@ -56,7 +56,7 @@ String y = "Bom dia X".replace("X", "Gui").toUpperCase().concat("!!!");
 "2" == s1        // ❌ pode dar errado
 ```
 
-### Conversão String ↔ Número
+### Conversão string ↔ Número
 **Pense assim:** "número vira texto colando uma string vazia na frente ou usando `.toString()`; texto vira número com `Double.parseDouble()` ou `Integer.parseInt()`."
 
 ```java
@@ -98,7 +98,7 @@ boolean temDesconto = bomComportamento && passouPorMedia;
 **Pense assim:** "um `if/else` de uma linha só, que **devolve um valor**."
 
 ```java
-String resultado = media >= 7.0 ? "aprovado" : "em recuperação";
+string resultado = media >= 7.0 ? "aprovado" : "em recuperação";
 ```
 
 ---
