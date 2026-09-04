@@ -22,7 +22,7 @@ public class ExercicioOito {
             valorAVista = valorCompra * 0.9;
             System.out.println("O valor da compra ficou em: " + valorAVista);
         } else if(pagamento == 2){
-            valorCredito =
+            valorCredito = alteração para commit
 
         }
     }
