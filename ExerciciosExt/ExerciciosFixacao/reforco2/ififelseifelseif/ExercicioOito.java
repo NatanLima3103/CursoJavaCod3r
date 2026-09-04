@@ -8,22 +8,20 @@ public class ExercicioOito {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Informe o valor da compra: ");
-        double valorCompra = entrada.nextInt();
+        double valorCompra = entrada.nextDouble();
 
         System.out.println("Qual será a forma de pagamento?");
         System.out.println("Selecione '1' para pagamento à vista (Pagamentos à vista possuem 10% de desconto, aproveite!).");
         System.out.println("Selecione '2' para pagamento parcelado (Será acrescentado 5% ao valor da compra).");
 
         int pagamento = entrada.nextInt();
-        double valorAVista = 0;
-        double valorCredito = 0;
+        double valorAVista = valorCompra * 0.9;
+        double valorCredito = valorCompra * 1.05;
 
         if(pagamento == 1){
-            valorAVista = valorCompra * 0.9;
             System.out.println("O valor da compra ficou em: " + valorAVista);
         } else if(pagamento == 2){
-            valorCredito = alteração para commit
-
+            System.out.println("O valor no parcelamento ficou em: " + valorCredito);
         }
     }
 }
