@@ -19,4 +19,9 @@ public class ExercicioDois {
         ExercicioDois that = (ExercicioDois) o;
         return matricula == that.matricula && Objects.equals(nome, that.nome);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, matricula);
+    }
 }
