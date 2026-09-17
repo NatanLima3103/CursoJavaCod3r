@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.umParaUm;
 
 public class carroTeste {
     public static void main(String[] args) {
