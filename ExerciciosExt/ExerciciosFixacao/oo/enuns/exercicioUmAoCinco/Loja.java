@@ -34,8 +34,11 @@ public class Loja {
 
         for (Pedido p : pedidos){
 
-            if(p.status )
-        }
+            if(p.podeCancelar()){
 
+                total++;
+            }
+        }
+        return total;
     }
 }
