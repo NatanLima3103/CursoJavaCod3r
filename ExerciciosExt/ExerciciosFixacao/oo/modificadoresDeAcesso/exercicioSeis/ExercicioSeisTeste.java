@@ -13,8 +13,5 @@ public class ExercicioSeisTeste {
         j1.desativar();
         j1.ganharPontos(10);
         System.out.println(j1.resumo());
-
-        j1.nivel(3);
-        j1.verificarNivel();
     }
 }
