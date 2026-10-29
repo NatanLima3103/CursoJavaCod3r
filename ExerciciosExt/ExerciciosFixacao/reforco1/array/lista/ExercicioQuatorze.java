@@ -1,6 +1,5 @@
 package reforco1.array.lista;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ExercicioQuatorze {

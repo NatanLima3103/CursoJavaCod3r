@@ -1,6 +1,5 @@
 package lambda.consumer.exercicioUm;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.function.Consumer;
 

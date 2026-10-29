@@ -1,6 +1,5 @@
 package hashmap;
 
-import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Scanner;
 
