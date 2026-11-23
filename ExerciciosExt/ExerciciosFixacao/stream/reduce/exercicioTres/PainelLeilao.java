@@ -29,12 +29,12 @@ public class PainelLeilao {
         System.out.println("Maior lance: R$ " + maiorLance);
 
         int menorLance = lances.stream()
-                .reduce(lances.get(0), (a, b) -> a< b ? a: b);
+                .reduce(lances.get(0), (a, b) -> a< b ? a : b);
 
         System.out.println("Menor lance: R$ " + menorLance);
 
         String nomeMaisLongo = licitantes.stream()
-                .reduce("", (a, b) -> a.length() > b.length() ? a: b);
+                .reduce("", (a, b) -> a.length() > b.length() ? a : b);
 
         System.out.println("Nome mais longo: " + nomeMaisLongo);
     }
