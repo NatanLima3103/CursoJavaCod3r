@@ -9,7 +9,7 @@ public class MedidorAgua {
         Stream.iterate(10, n -> n + 15)
                 .limit(8)
                 .filter(n -> n % 2 == 0)
-                .forEach(n -> System.out.println("Leitura: " + n + "m3"));
+                .forEach(n -> System.out.println("Leitura: " + n + " m3"));
 
         System.out.println("=== FILTER ANTES DO LIMIT ===");
         Stream.iterate(10, n -> n + 15)
