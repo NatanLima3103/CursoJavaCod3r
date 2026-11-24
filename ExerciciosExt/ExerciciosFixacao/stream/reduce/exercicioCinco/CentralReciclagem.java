@@ -1,10 +1,10 @@
-package stream.reduce;
+package stream.reduce.exercicioCinco;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BinaryOperator;
 
-public class exercicioCinco {
+public class CentralReciclagem {
 
     public static Double fechar(List<Double> pesos, Double inicial, BinaryOperator<Double> regra){
 
